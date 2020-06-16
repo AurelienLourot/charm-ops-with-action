@@ -37,3 +37,6 @@ Traceback (most recent call last):
 AttributeError: 'CharmEvents' object has no attribute 'hello_action'
 2020-06-16 09:57:36 ERROR juju.worker.uniter.operation runhook.go:132 hook "install" failed: exit status 1
 ```
+
+This happens because
+[charmcraft doesn't support actions yet](https://github.com/canonical/charmcraft/issues/35).
