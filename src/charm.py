@@ -27,7 +27,7 @@ class CharmOpsWithAction(CharmBase):
 
     def __init__(self, *args):
         super().__init__(*args)
-        self.framework.observe(self.on.hello_action, self.hello_action)
+        self.framework.observe(self.on.hello_action, self.on_hello_action)
         logger.info('Yay, I managed to register an action!')
 
     def on_hello_action(self, event):
