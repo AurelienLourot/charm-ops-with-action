@@ -1,0 +1,10 @@
+name: ops-with-action
+summary: Charm with an action
+maintainer: OpenStack Charmers <openstack-charmers@lists.ubuntu.com>
+description: |
+  This is an attempt to create a charm with the Operator framework and one
+  action.
+series:
+  - xenial
+  - bionic
+  - focal
